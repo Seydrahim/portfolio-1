@@ -1,0 +1,46 @@
+	<header>
+ 
+  <nav style="background-color:rgb(254, 254, 255);
+	width: 100%;
+	display: flex;
+	height: 80px;
+	">
+	<style>
+		.about-contact{
+			display: inline-flex;
+			width: 100%;
+			height: 100%;
+			border: 1px solid black;
+			justify-content: space-around;
+		
+			
+		}
+	</style>
+	
+ <ul style="
+ display: inline-flex;
+ width: 80%;
+ margin: auto;
+ list-style: none;" 
+ >
+
+
+ <li><a href="#" style="color: black; margin-left: 10px; font-size: 20px; justify-content: flex-start;"><b>TENGRI</b><b style="color: rgba(30, 172, 177, 0.856);">SHOP</b></a></li>
+
+
+
+<div class="about-contact">
+ <li><a href="#" style="color: black;
+	margin-left: 50px; 
+	font-size: 20px; " >About</a></li>
+ <li><a href="#" style="color: black;
+	margin-left: 50px; 
+	font-size: 20px; ">Contact</a></li>
+</div>
+</ul>
+
+
+<input type="text" placeholder="Search here..."  style="width: 300px;
+height: 50px; justify-content: flex-end;" >
+
+</header>
