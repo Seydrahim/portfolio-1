@@ -17,6 +17,7 @@ body {
 
 *{
 	box-sizing: border-box;
+	
 }
 
 
@@ -27,11 +28,11 @@ a {
 	&:hover, &:focus {
 		outline: none;
 		text-decoration: none;
-		color: darken($color-primary, 5%);	
+		// color: darken($color-primary, 5%);	
 	}
 
-
 }
+
 
 
 
