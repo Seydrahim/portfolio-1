@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>TITLE</title>
+
+	<link rel="stylesheet" href="style.css">
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/brands.min.css
+">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/solid.min.css
+">
+
+
+</head>
+
+<body>
+
+
+	<header>
+		<nav class="header_fixed">
+
+
+			<div style="padding-bottom: 0;
+		margin-bottom: 0;">
+				<div style="display: flex; margin-left: 100px;">
+					<div>
+						<img src="assets/img/whiteversion.png" style="width: 70px;
+		  			 height: 60px; margin-top: 4px; margin-right: 5px; ">
+					</div>
+					<div class="brandname"><b>Brand</b><b style="color: rgb(59, 111, 153); font-size: 25px;">Name</b> </div>
+
+				</div>
+
+				<!--<div style="margin-left: 100px; 
+		height: 10px; 
+		width: 200px; 
+		background-color:rgb(61, 37, 88);
+		padding-bottom: 0;
+		margin-bottom: 0;"></div>-->
+			</div>
+
+			<div style="display: flex; margin-left: 400px;">
+				<div style="padding-top: 15px; padding-left: 150px; margin: 0 20px 0 20px;
+			"> <button class="registration-button"> Басты бет
+					</button> </div>
+				<div style="padding-top: 15px; 
+			  padding-left: 10px;"> <button class="registration-button"> Тіркелу
+					</button> </div>
+				<div style="padding-top: 15px; 
+			  padding-left: 25px;"> <button class="registration-button"> Кіру
+					</button> </div>
+			</div>
+
+
+
+			<style>
+				.header_fixed {
+					width: 100%;
+					height: 60px;
+					background: white;
+					z-index: 1000;
+					display: inline-flex;
+					height: 80px;
+
+				}
+
+				.brandname {
+					color: rgb(61, 37, 88);
+					padding-top: 25px;
+					font-size: 20px;
+					font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				}
+
+				.registration-button {
+					border-radius: 5px;
+					width: 120px;
+					height: 40px;
+					font-size: 20px;
+					background-color: rgb(154, 216, 231);
+					border: none;
+					color: rgb(48, 34, 73);
+					;
+				}
+
+
+				input[ type="checkbox"] {
+					display: none;
+					width: 800px;
+				}
+
+			</style>
+		</nav>
+
+		<nav>
+			<style>
+				.slider-mine {
+
+					display: flex;
+					height: 500px;
+					background-color: rgb(154, 216, 231);
+					justify-content: space-between;
+					justify-content: flex-end;
+				}
+
+				.label {
+					width: 20px;
+					height: 10px;
+
+				}
+
+
+				.slider-text {
+					padding-top: 100px;
+					padding-left: 100px;
+
+				}
+
+				.ul1 {
+					background-color: rgb(247, 252, 155);
+					padding: 20px;
+					border-radius: 20px;
+					margin-top: 20px;
+				}
+
+				.ulli {
+					font-size: 20px;
+				}
+
+				.title {
+					margin-left: 10px;
+				}
+
+			</style>
+
+			<div class="slider-mine">
+
+				<div class="slider-text">
+					<div class="title" style="font-size: 50px; color: rgb(67, 29, 100);">
+						<b> Верстка курсы Brand Name</b>
+					</div>
+					<br>
+					<br>
+					<br>
+					<div class="ul1">
+						<ul>
+							<li class="ulli">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, officiis?</li>
+							<li class="ulli">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, officia.</li>
+							<li class="ulli">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, aut?</li>
+						</ul>
+					</div>
+				</div>
+
+
+				<img src="assets/img/labelphoto.jpg" style=" height: 480px; padding-top: 100px;">
+
+
+			</div>
+		</nav>
+
+
+
+	</header>
+
+
+
+	<section style="
+                 background: linear-gradient(to bottom, rgb(154,216,231) 50%, white 50%);
+                 padding: 200px 50px 400px 50px; ">
+
+
+		<style>
+			.courses {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin: 0;
+			}
+
+
+			.cards {
+				position: relative;
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				flex-wrap: wrap;
+				padding: 30px;
+			}
+
+			.course {
+				margin: 50px;
+			}
+
+
+			.cards .course {
+				position: relative;
+				max-width: 250px;
+				height: 165px;
+				background: #fff;
+				border-radius: 20px;
+				margin: 30px 20px;
+				padding: 20px 30px;
+				display: flex;
+				flex-direction: column;
+				/* box-shadow: 0 3px 202px rgb(183, 233, 247); */
+				transition: 0.3s ease-in-out;
+			}
+
+			.cards .course:hover {
+				height: 300px;
+			}
+
+			.cards .course .image {
+				position: absolute;
+				width: 160px;
+				height: 160px;
+				top: -60px;
+				left: 20px;
+				bottom: -40px;
+				margin-left: 10px;
+				/* z-index: 1; */
+				/* box-shadow: 0 5px 20px rgb(154,216,231); */
+			}
+
+			/* .cards .course .text{ 
+        margin-top: 20px;
+        margin-left: 10px;
+    }*/
+
+			.takryp {
+				margin-top: 150px;
+				margin-left: 20px;
+			}
+
+			.toptext {
+				font-size: 40px;
+				margin-left: 410px;
+				margin-right: 400px;
+				margin-bottom: 100px;
+
+				text-align: center;
+
+			}
+
+			.lii {
+				margin: 10px 0 10px 0;
+			}
+
+			.ulli {
+				font-family: 'cursive';
+				font-size: 20px;
+			}
+
+			.licontainer {
+				margin-top: 43px;
+
+			}
+
+			.btn-course {
+				font-size: 15px;
+				font-weight: 600;
+				border-radius: 5px;
+				letter-spacing: 0px;
+				color: #1d648d;
+				background: #dee3e7;
+				-webkit-box-flex: 1;
+				-webkit-flex: 1 1 auto;
+				-ms-flex: 1 1 auto;
+				flex: 1 1 auto;
+				padding: 8px 10px;
+				border: none;
+				text-align: center;
+				text-transform: capitalize;
+				position: relative;
+				overflow: hidden;
+				-webkit-transition: .3s;
+				transition: .3s;
+			}
+
+			.btn-course:after {
+				position: absolute;
+				-webkit-transition: .3s;
+				transition: .3s;
+				content: '';
+				width: 0;
+				left: 50%;
+				bottom: 0;
+				height: 3px;
+				background: #1d648d;
+			}
+
+			.btn-course:hover:after {
+				width: 100%;
+				left: 0;
+			}
+
+			.btn-course:hover {
+				color: #fff;
+				background: #000;
+			}
+
+		</style>
+
+		<div class="toptext">
+			<h3> Курстар</h3>
+		</div>
+
+		<div class="courses">
+			<div class="cards">
+
+				<div class="course">
+					<div class="image">
+						<img src="assets/img/ux.png" style="width: 200px; ">
+					</div>
+					<div class="takryp 1" style="margin-left: 11px;">
+						<h2>WEB негіздері</h2>
+					</div>
+					<div class="text">
+						<ul class="ulli">
+							<li class="lii"> Ұзақтығы: 1 ай</li>
+							<li class="lii">HTML, CSS, JavaScript негіздері үйрену </li>
+							<li class="lii"> HTML, CSS, JavaScript негіздері үйрену </li>
+						</ul>
+					</div>
+					<div class="col-md-6 offset-3" style="padding-top: 30px; padding-left: 30px; ">
+						<a class="btn btn-course" href="python/">Қатысамын</a>
+					</div>
+				</div>
+
+				<div class="course">
+					<div class="image">
+						<img src="assets/img/computer.png" style="width: 200px;">
+					</div>
+					<div class="takryp 2">
+						<h2>Front end</h2>
+					</div>
+					<div class="text">
+						<ul class="ulli licontainer">
+							<li class="lii"> Ұзақтығы: 1 ай</li>
+							<li class="lii"></i>HTML, CSS, JavaScript негіздері үйрену </li>
+							<li class="lii">HTML, CSS, JavaScript негіздері үйрену </li>
+						</ul>
+					</div>
+
+					<div class="col-md-6 offset-3" style="padding-top: 37px; padding-left: 30px;">
+						<a class="btn btn-course" href="python/">Қатысамын</a>
+					</div>
+
+				</div>
+
+				<div class="course">
+					<div class="image">
+						<img src="assets/img/backend.png" style="width: 190px;">
+					</div>
+					<div class="takryp 3">
+						<h2>Back End</h2>
+					</div>
+					<div class="text">
+						<ul class="ulli licontainer">
+							<li class="lii">Ұзақтығы: 1 ай</li>
+							<li class="lii">Мәліметтер базасына кіріспе </li>
+							<li class="lii">Django Framework-ке кіріспе </li>
+						</ul>
+					</div>
+					<div class="col-md-6 offset-3" style="padding-top: 62px; padding-left: 30px;">
+						<a class="btn btn-course" href="python/">Қатысамын</a>
+					</div>
+
+				</div>
+
+				<div class="course">
+					<div class="image">
+						<img src="assets/img/world-wide-web.png" style="width: 200px; top: -40px;">
+					</div>
+					<div class="takryp 4">
+						<h2>Full Stuck</h2>
+					</div>
+					<div class="text">
+						<ul class="ulli licontainer">
+							<li class="lii"> Ұзақтығы: 3 ай</li>
+							<li class="lii">Қолайлы бағада барлығын үйрену</li>
+							<li class="lii">Күнделікті теория мен практика </li>
+						</ul>
+					</div>
+					<div class="col-md-6 offset-3" style="padding-top: 65px; padding-left: 30px;">
+						<a class="btn btn-course" href="python/">Қатысамын</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+
+
+
+		<nav style="font-family: 'Poppins', sans-serif; margin-top: 100px; ">
+
+
+			<style>
+				.body {
+					margin: 0%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+
+				}
+
+				.cont {
+					position: relative;
+					width: 100%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-wrap: wrap;
+					padding: 30px;
+				}
+
+				.cont .card {
+					position: relative;
+					max-width: 200px;
+					height: 115px;
+					background: #fff;
+					margin: 30px 10px;
+					padding: 20px 15px;
+					display: flex;
+					flex-direction: column;
+					/* box-shadow: 0 3px 202px rgb(183, 233, 247); */
+					transition: 0.3s ease-in-out;
+				}
+
+				.cont .card:hover {
+					height: 370px;
+				}
+
+				.cont .card .imgBx {
+					position: relative;
+					text-align: center;
+					width: 160px;
+					height: 160px;
+					top: -60px;
+					left: 20px;
+					bottom: -40px;
+					/* z-index: 1; */
+					/* box-shadow: 0 5px 20px rgb(154,216,231); */
+				}
+
+				.cont .card .imgBx img,
+				h2 {
+					/* max-width: 100%; 
+        border-radius: 4px;*/
+					padding-right: 30px;
+				}
+
+				.cont .card .content {
+					position: relative;
+					margin-top: -140px;
+					padding: 10px 15px;
+					text-align: center;
+					color: #111;
+					visibility: hidden;
+					opacity: 0;
+					transition: 0.3 ease in-out;
+				}
+
+				.cont .card:hover .content {
+					visibility: visible;
+					opacity: 1;
+					margin-top: -40px;
+					transition-delay: 0.3s;
+				}
+
+				.title1 {
+					font-size: 40px;
+					margin-left: 400px;
+				}
+
+			</style>
+
+
+
+			<div class="title1">
+				<h3>Сабақтар қалай өтеді</h3>
+			</div>
+
+			<div class="body">
+				<div class="cont">
+
+					<div class="card">
+						<div class="imgBx">
+							<img src="assets/img/live-streaming.png" style="width: 150px;">
+							<h2>Тікелей эфир</h2>
+						</div>
+						<div class="content">
+
+							<p>Білікті ұстаздар тікелей эфирде сабақ өткізеді. </p>
+						</div>
+					</div>
+					<div class="card">
+						<div class="imgBx">
+							<img src="assets/img/video.png" style="width: 150px;">
+							<h2>Видео сабақтар</h2>
+						</div>
+						<div class="content">
+
+							<p> Тақырыптарды тереңдетіп түсіндіретін видеосабақтар топтамасы беріледі </p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="imgBx">
+							<img src="assets/img/conversation.png" style="width: 150px;">
+							<h2>Талқылау</h2>
+						</div>
+						<div class="content">
+
+							<p> Оқушылар сабақты топтасып талқылайды </p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="imgBx">
+							<img src="assets/img/error.png" style="width: 150px;">
+							<h2>Қатемен жұмыс</h2>
+						</div>
+						<div class="content">
+							<p>Үй жұмысындағы қиындық тудырған тапсырманы түсіндіретін видеосабақтар болады</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="imgBx">
+							<img src="assets/img/homework.png" style="width: 150px;">
+							<h2>Үй тапсырмасы</h2>
+						</div>
+						<div class="content">
+
+							<p>Әр оқушының тақырыпты қаншалықты игергенін анықтайтын тапсырмалар беріледі </p>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			</div>
+		</nav>
+
+
+
+		<!-- 
+<div style=" 
+margin-top: 200px;">
+
+    <b style="font-size: 50px; 
+    margin-left: 500px;
+    
+    font-family: 'Poppins', sans-serif;
+     ">
+     Курстар
+    </b>
+   
+<div style="margin: 20px;">
+   
+    <br> 
+    <div class="containers">
+        <div class="flex-container">
+            <img src="assets/img/img-2.jpg" class="image-container">
+             <br>
+             <br>
+             <div>
+            <b style="padding-top: 20px; color: black; padding-left: 100px; ">WEB негіздері</b> 
+            <hr>  
+            <ul >
+                <li> Ұзақтығы: 1 ай</li> 
+                <li>HTML, CSS, JavaScript негіздері үйрену </li>
+                <li> HTML, CSS, JavaScript негіздері үйрену </li>
+            </ul>
+
+        <div class="col-md-6 offset-3" style="padding-top: 30px; padding-left: 110px;">
+        <a class="btn btn-course" href="python/" >Қатысамын</a>
+        </div>
+
+    </div>
+    <br>
+    <b style="font-size: 30px; margin-bottom: 30px; color: black; padding-top: 15px; padding-left: 100px;">16 900 T</b>
+    </div>
+    
+    
+    <div class="containers">
+        <div class="flex-container">
+            <img src="assets/img/img-1.jpg" class="image-container">
+            <br>
+            <br>
+            <div>
+            <b style="padding-top: 30px; color: black;  padding-left: 120px;">FRONTEND</b> 
+            <hr>
+            <ul class="licontainer">
+                <li> Ұзақтығы: 1 ай</li> 
+                <li></i>HTML, CSS, JavaScript негіздері үйрену </li>
+                <li>HTML, CSS, JavaScript негіздері үйрену </li>
+            </ul>
+          
+          <div class="col-md-6 offset-3" style="padding-top: 30px; padding-left: 110px;">
+              <a class="btn btn-course" href="python/" >Қатысамын</a>
+          </div>
+        </div>
+        <br>
+        <b style="font-size: 30px; margin-bottom: 30px; color: black; padding-top: 15px; padding-left: 100px;">19 900 T</b></div>
+    </div>
+
+
+    <div class="containers">
+        <div class="flex-container">
+            <img src="assets/img/img-3.jpg" class="image-container">
+            <br>
+            <br>
+            <div>
+            <b style="padding-top: 30px; color: black;  padding-left: 120px;">BACKEND</b>
+            <hr> 
+            <ul >
+                <li>Ұзақтығы: 1 ай</li> 
+                <li>Мәліметтер базасына кіріспе </li>
+                <li>Django Framework-ке кіріспе </li></ul>
+            <br>
+            <br>
+          <div class="col-md-6 offset-3" style="padding-top: 30px; padding-left: 110px;">
+              <a class="btn btn-course" href="python/" >Қатысамын</a> <br> <br>
+              <b style="font-size: 30px; margin-bottom: 30px; color: black; padding-top: 15px; ">19 900 T</b>
+          </div>
+            </div>
+            <br>
+            </div>
+        </div>      
+            
+
+        <div class="containers">
+            <div class="flex-container">
+                <img src="assets/img/img-4.jpg" class="image-container">
+                <br> 
+                <br>
+                <div>
+                <b style="padding-top: 30px; color: black;  padding-left: 120px;">FULL STACK</b> <hr>
+                <ul >
+                    <li> Ұзақтығы: 3 ай</li> 
+                    <li>Қолайлы бағада барлығын үйрену</li>
+                    <li>Күнделікті теория мен практика </li></ul>
+              <br>
+              <br>
+              <div class="col-md-6 offset-3" style="padding-top: 30px; padding-left: 110px;">
+                  <a class="btn btn-course" href="python/" >Қатысамын</a>
+              </div>
+                </div>
+                <br>
+                <b style="font-size: 30px; margin-bottom: 30px; color: black; padding-top: 15px; padding-left: 100px;">39 900 T</b>
+            </div>
+        </div>
+    </div> 
+</div>        
+<style>
+                .flex-container{
+                    width: 300px;
+                    height: 550px;
+                    margin: 5px;
+                    border: none;
+                    border-radius: 20px;
+                    box-shadow: 0px 0px 10px rgb(154,216,231);
+                    
+                }
+
+                .containers{
+                    display: flex; 
+                    flex-wrap: wrap; 
+                    margin-left: 10px;
+                    justify-content: center;
+                
+                }
+                .image-container{
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 20px 20px 0 0;
+                }
+                .licontainer{
+                  
+                }
+                .btn-course {
+                    font-size: 15px;
+                    font-weight: 600;
+                    letter-spacing: 0px;
+                    color: #1d648d;
+                    background: #dee3e7;
+                    -webkit-box-flex: 1;
+                    -webkit-flex: 1 1 auto;
+                    -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+                    padding: 8px 10px;
+                    border: none;
+                    text-align: center;
+                    text-transform: capitalize;
+                    position: relative;
+                    overflow: hidden;
+                    -webkit-transition: .3s;
+                    transition: .3s;
+                    }
+
+                    .btn-course:after {
+                        position: absolute;
+                        -webkit-transition: .3s;
+                        transition: .3s;
+                        content: '';
+                        width: 0;
+                        left: 50%;
+                        bottom: 0;
+                        height: 3px;
+                        background:  #1d648d;
+                    }
+
+                    .btn-course:hover:after {
+                        width: 100%;
+                        left: 0;
+                    }
+
+                    .btn-course:hover {
+                        color: #fff;
+                        background: #000;
+                    }
+ </style> -->
+	</section>
+
+
+	<section>
+
+		<style>
+			.mine {
+				width: 100%;
+				height: 550px;
+				background: rgb(247, 252, 155);
+				color: black;
+				font-family: 'Poppins', sana-serif;
+				margin-top: 200px;
+				padding: 50px;
+				min-height: 100vh;
+			}
+
+			.container {
+				display: flex;
+				/* width: 100%; */
+				margin: 15px 50px 0 50px;
+				height: 500px;
+				background: rgb(255, 255, 255);
+				border-radius: 15px;
+				max-width: 100%;
+
+			}
+
+			form {
+				width: 100%;
+				display: flex;
+			}
+
+			.feedback {
+				margin-left: 200px;
+				margin-top: 50px;
+				margin-right: 100px;
+			}
+
+			.matin {
+				margin-left: 100px;
+				margin-top: 100px;
+				color: rgb(0, 0, 0);
+				width: 450px;
+
+			}
+
+			.container form .form-row {
+				display: flex;
+				margin: 32px 0;
+			}
+
+			form .form-row .input-data {
+				width: 100%;
+				height: 40px;
+				margin: 0 20px;
+				position: relative;
+			}
+
+			form .form-row .textarea {
+				height: 70px;
+			}
+
+			.input-data input,
+			.textarea textarea {
+				display: block;
+				height: 100%;
+				width: 100%;
+				border: none;
+				font-size: 20px;
+				outline: none;
+				border-bottom: 1px solid rgb(173, 173, 173);
+			}
+
+			.textarea textarea {
+				resize: none;
+				padding-top: 10px;
+			}
+
+			.input-data input:focus~label,
+			.textarea textarea:focus~label,
+			.input-data input:valid~label,
+			.textarea textarea:valid~label {
+				transform: translateY(-20px);
+				color: rgb(119, 76, 189);
+				font-size: 16px;
+				/* font-family: Times, Times New Roman, serif	; */
+				pointer-events: none;
+
+			}
+
+			.input-data label {
+				position: absolute;
+				bottom: 10px;
+				font-size: 18px;
+				pointer-events: none;
+				transition: all 0.3s ease;
+			}
+
+			.textarea label {
+				width: 100%;
+				bottom: 30px;
+				/* background: #fff; */
+			}
+
+			.input-data .underline {
+				position: absolute;
+				bottom: 0;
+				height: 2px;
+				width: 100%;
+
+			}
+
+			.input-data .underline::before,
+			.input-data .underline::after {
+				position: absolute;
+				content: "";
+				height: 100%;
+				width: 100%;
+				background: rgb(119, 76, 189);
+				transform: scaleX(0);
+				transform-origin: center;
+				transition: transform 0.3s ease;
+			}
+
+			.input-data input:focus~.underline::before,
+			.underline::after,
+			.textarea textarea:focus~.underline::before,
+			.underline::after,
+			.input-data input:valid~.underline::before,
+			.underline::after,
+			.textarea textarea:valid~.underline::before,
+			.underline::after {
+				transform: scaleX(1);
+			}
+
+			.submit-btn .input-data {
+				height: 45px !important;
+				width: 250px !important;
+				overflow: hidden;
+				border-radius: 20px;
+			}
+
+			.submit-btn .input-data .inner {
+				height: 100%;
+				width: 300%;
+				position: absolute;
+				left: -100%;
+				background: rgb(119, 76, 189);
+				text-align: center;
+
+			}
+
+			.submit-btn .input-data input {
+				position: relative;
+				z-index: 2;
+				background: none;
+				border: none;
+				color: #fff;
+				font-size: 17px;
+				font-weight: 500;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				cursor: pointer;
+			}
+
+		</style>
+		<div class="promo">
+			<div class="mine">
+				<div class="container">
+					<form action="">
+						<div class="matin">
+							<h1 style="font-size: 30px;">Give your FeedBack</h1>
+							<div style="font-size: 20px;"><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, animi! Ratione dolorem corporis nostrum quibusdam.</div>
+						</div>
+
+
+						<div class="feedback">
+							<div class="form-row">
+								<div class="input-data">
+									<input type="text" required>
+									<div class="underline"></div>
+									<label>First Name</label>
+								</div>
+
+								<div class="input-data">
+									<input type="text" required>
+									<div class="underline"></div>
+									<label>Last Name</label>
+								</div>
+
+							</div>
+
+							<div class="form-row">
+								<div class="input-data">
+									<input type="text" required>
+									<div class="underline"></div>
+									<label>Email adress</label>
+								</div>
+
+								<div class="input-data">
+									<input type="text" required>
+									<div class="underline"></div>
+									<label>Website Name</label>
+								</div>
+
+							</div>
+
+							<div class="form-row">
+								<div class="input-data textarea">
+									<textarea cols="30" rows="10" required></textarea>
+									<div class="underline"></div>
+									<label>Gave your feedback</label>
+								</div>
+							</div>
+
+							<div class="form-row submit-btn">
+								<div class="input-data">
+									<div class="inner"></div>
+									<input type="submit" value="submit">
+								</div>
+							</div>
+						</div>
+
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<nav>
+			<style>
+				.foter {
+					display: inline-flex;
+					justify-content: space-around;
+					width: 100%;
+					height: auto;
+					padding: 50px;
+					background-color: black;
+					color: white;
+				}
+
+				.blocks {
+					width: 310px;
+					margin-right: 100px;
+					box-sizing: border-box;
+
+				}
+
+				.container1 {
+					display: inline-flex;
+				}
+
+				.social {
+					color: black;
+					list-style: none;
+					padding: 0;
+					display: inline-flex;
+					justify-content: center;
+
+				}
+
+				.social_item {
+					width: 70px;
+					height: 70px;
+					background-color: #e2e2e2;
+					border-radius: 50%;
+					text-align: center;
+					line-height: 40px;
+					margin: 8px;
+				}
+
+				.fab {
+					font-size: 30px;
+					padding-top: 20px;
+					text-align: center;
+				}
+
+				.contact {
+					font-size: 22px;
+					text-align: center;
+
+				}
+
+				a {
+					color: white;
+				}
+
+				.fab {
+					color: black;
+				}
+
+			</style>
+
+
+			<div class="foter">
+				<div class="blocks">
+					<div style=" margin: 20px; font-size: 23px;"><b>Курсы </b></div>
+					<div style="margin: 20px;">
+						<div><a href="#"><br>Программирование</a></div>
+						<div><a href="#"> <br>Игры</a></div>
+						<div><a href="#"><br>Маркетинг</a></div>
+						<div><a href="#"><br>Мультимедиа</a></div>
+						<div><a href="#"><br>Дизайн</a></div>
+					</div>
+				</div>
+
+
+
+				<div class="blocks">
+					<div style="margin-top: 20px; margin-bottom: 20px; font-size: 23px;"><b> Көмек</b></div>
+					<div style="margin: 20x; 
+                ">
+						<div><a href="#"><br>Сұрақтар</a></div>
+						<div><a href="#"> <br>Оплата и доставка</a></div>
+						<div><a href="#"><br>Мои заказы</a></div>
+						<div><a href="#"><br>Мой аккаунт</a></div>
+						<div><a href="#"><br>О скидках</a></div>
+					</div>
+				</div>
+
+
+				<div class="blocks">
+					<div style="margin: 20px; font-size: 23px; text-align: center;"><b>Таныс болайық</b></div>
+					<div class="container1">
+						<ul class="social">
+
+							<a href="#">
+								<li class="social_item">
+									<i class="fab fa-vk"></i>
+								</li>
+							</a>
+
+							<a href="#">
+								<li class="social_item">
+									<i class="fab fa-instagram"></i>
+								</li>
+							</a>
+
+							<a href="https://www.youtube.com/watch?v=XbnAKjjlgc4&t=1045s">
+								<li class="social_item">
+									<i class="fab fa-youtube"></i>
+								</li>
+							</a>
+
+							<a href="#">
+								<li class="social_item">
+									<i class="fab fa-telegram"></i>
+								</li>
+							</a>
+
+							<a href="#">
+								<li class="social_item">
+									<i class="fab fa-twitter"></i>
+								</li>
+							</a>
+
+						</ul>
+					</div>
+
+					<div class="contact">
+						<div>8-777-777-76-75</div>
+					</div>
+
+				</div>
+
+
+
+			</div>
+		</nav>
+	</footer>
+	<script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
