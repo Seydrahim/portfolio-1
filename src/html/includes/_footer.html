@@ -7,16 +7,17 @@
                 width: 100%;
                 height: auto;
                 padding: 50px;
-                background-color: #edeff1;
+                background-color: black;
+                color: white;
             }
 
             .blocks{
-                width: 400px;
+                width: 310px;
                 margin-right: 100px;
                 box-sizing: border-box;
         
             }
-            .container{
+            .container1{
                 display: inline-flex;
             }
 
@@ -30,8 +31,8 @@
             }
 
             .social_item{
-                width: 40px;
-                height: 40px;
+                width: 70px;
+                height: 70px;
                 background-color: #e2e2e2;
                 border-radius: 50%;
                 text-align: center;
@@ -39,31 +40,24 @@
                 margin: 8px;
             }
 
-            
+            .fab{
+                font-size: 30px;
+                padding-top: 20px;
+                text-align: center;
+            }
 
-
-
-            .follow input{
-			width: 100%;
-			height: 100%;
-			border: none;
-			background-color: transparent;
-			outline: none;
-			font-size: 20;}
-
-            .follow{
-			display: inline-flex;
-			justify-content: space-between;
-		    background-color:   #e2e2e2;
-		     height: 50px;
-		    width: 300px;
-		    padding: 10px;
-		     position: relative;
-		     margin-top: 10px;
-             }
+            .contact{
+                font-size: 22px;
+                text-align: center;
+                
+            }
 
              a{
-                 color: black;
+                 color: white;
+             }
+
+             .fab{
+               color: black;
              }
 
 
@@ -73,18 +67,20 @@
 
  <div class="foter">
     <div class="blocks">
-        <div style=" margin: 20px;"><b>   Tengrishop</b></div>
+        <div style=" margin: 20px; font-size: 23px;"><b>Курсы </b></div>
         <div style="margin: 20px;">
-            <div ><a href="#"><br>Ерлерге</a></div>
-            <div ><a href="#"> <br>Әйелдерге</a></div> 
-            <div ><a href="#"><br>Балаларға</a></div>
+            <div ><a href="#"><br>Программирование</a></div>
+            <div ><a href="#"> <br>Игры</a></div> 
+            <div ><a href="#"><br>Маркетинг</a></div>
+            <div ><a href="#"><br>Мультимедиа</a></div>
+            <div ><a href="#"><br>Дизайн</a></div>
         </div>
     </div>
 
 
 
     <div class="blocks">
-        <div style="margin: 20px;"><b>   Көмек</b></div>
+        <div style="margin-top: 20px; margin-bottom: 20px; font-size: 23px;"><b>   Көмек</b></div>
         <div style="margin: 20x; 
                 ">
             <div ><a href="#"><br>Сұрақтар</a></div>
@@ -97,43 +93,49 @@
 
 
     <div class="blocks">
-       <div style="margin: 20px;"><b>Таныс болайық</b></div>
-      <div class="container">
+       <div style="margin: 20px; font-size: 23px; text-align: center;"><b>Таныс болайық</b></div>
+      <div class="container1">
           <ul class="social">
+
             <a href="#">
               <li class="social_item">
                 <i class="fab fa-vk"></i>
               </li>
             </a>
+
             <a href="#">
               <li class="social_item">
                 <i class="fab fa-instagram"></i> 
               </li>
             </a>  
+
             <a href="https://www.youtube.com/watch?v=XbnAKjjlgc4&t=1045s">
               <li class="social_item">
                 <i class="fab fa-youtube"></i>  
               </li>
             </a>
+
+            <a href="#">
+                <li class="social_item">
+                  <i class="fab fa-telegram"></i> 
+                </li>
+              </a> 
+
+              <a href="#">
+                <li class="social_item">
+                  <i class="fab fa-twitter"></i> 
+                </li>
+              </a> 
+
           </ul>
+      </div>
+
+      <div class="contact">
+        <div>8-777-777-76-75</div>
       </div>
 
     </div>
 
-
-
-
-
-
-
-    <div style="margin: 20px;"> 
-        <div style="font-weight: 550;"> Подпишитесь на наши новости, чтобы быть в курсе скидок и акций</div>
-        <br><input type="checkbox" id="check">
-        <div class="follow">
-            <input type="text" placeholder="Поштаңыз...">
-            <button ><b> Жазылыңыз</b></button>
-        </div>
-    </div>
 
 
 </div>

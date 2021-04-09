@@ -1,140 +1,356 @@
 <section>
 
-    
-    <style>
-        .first1{
-            display: inline-flex;
-            width: 100%;
-            justify-content: space-between;
-            
-        }
-        .gall{
-            text-decoration: none;
-            list-style: none;
-           
-        }
-        .alll{
-            margin-right: 130px;
-            margin-left: 90px;
-            justify-content: space-between;
-            
-        }
 
 
-        .btn2{
-            background-color: white;
-            border: 1px solid rgb(202, 202, 202);
-            border-radius: 5px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            cursor: pointer;
-        }
-    </style>
-    <div style="font-size: 30px; text-align: center; margin: 50px;">
-        <b>
-            Жаңа өнімдер
-        </b>
-    </div>
-  <div class="alll">
-    <div class="first1">
-    <ul class="gall">
-        <li>
-            
-                <button class="btn2">
-                    <img src="assets/img/product-1.jpg" style="padding-top: 10px; width: 180px;">
-                    <div style="padding: 5px; font-style: inherit; font-size: 15px; font-weight: 100;" ><br> Xiaomi Poco X3 NFC Dual SIM 
-                    <br> 120GB 6GB RAM Grey </div>
-                    <br>49 900т
-                </button>
-           
-        </li>
-    </ul>
-    <ul class="gall">
-        <li>
-            <a href="#">
-                <button class="btn2">
-                    <img src="assets/img/product-2.jpg" style="padding-top: 10px; width: 180px;">
-                    <div style="padding: 5px; font-style: inherit; font-size: 15px; font-weight: 100;" ><br> Xiaomi Poco X3 NFC Dual SIM 
-                    <br> 120GB 6GB RAM Grey </div>
-                    <br>49 900т
-                </button>
-            </a>
-        </li>
-    </ul><ul class="gall">
-        <li>
-            <a href="#">
-                <button class="btn2">
-                    <img src="assets/img/product-3.jpg" style="padding-top: 10px; width: 180px;">
-                    <div style="padding: 5px; font-style: inherit; font-size: 15px; font-weight: 100;" ><br> Xiaomi Poco X3 NFC Dual SIM 
-                    <br> 120GB 6GB RAM Grey </div>
-                    <br>49 900т
-                </button>
-            </a>
-        </li>
-    </ul>
-    <ul class="gall">
-    <li>
-        <a href="#">
-            <button class="btn2">
-                <img src="assets/img/product-4.jpg" style="padding-top: 10px; width: 180px;">
-                <div style="padding: 5px; font-style: inherit; font-size: 15px; font-weight: 100;" ><br> Xiaomi Poco X3 NFC Dual SIM 
-                <br> 120GB 6GB RAM Grey </div>
-                <br>49 900т
-            </button>
-        </a>
-    </li>
-    </ul>
-    </div>
+
+<nav style="font-family: 'Poppins', sans-serif; margin-top: 100px; ">
 
 
-    <div class="first1">
-        <ul class="gall">
-            <li>
+<style>
+
+    .body{
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+      
+    }
+
+    .cont{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .cont .card{
+        position: relative;
+        max-width: 200px;
+        height: 115px;
+        background: #fff;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        /* box-shadow: 0 3px 202px rgb(183, 233, 247); */
+        transition: 0.3s ease-in-out;
+    }
+
+    .cont .card:hover{
+        height: 370px;
+    }
+
+     .cont .card .imgBx{ 
+        position: relative;
+        text-align: center;
+        width: 160px;
+        height: 160px;
+        top: -60px;
+        left: 20px;
+        bottom: -40px;
+        /* z-index: 1; */
+        /* box-shadow: 0 5px 20px rgb(154,216,231); */
+    }    
+
+    .cont .card .imgBx img, h2{ 
+        /* max-width: 100%; 
+        border-radius: 4px;*/
+        padding-right: 30px;
+    }
+
+    .cont .card .content{
+        position: relative;
+        margin-top: -140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3 ease in-out;
+    }
+
+    .cont .card:hover .content{
+        visibility: visible;
+        opacity: 1;
+        margin-top: -40px;
+        transition-delay: 0.3s;
+    }
+
+    .title1{
+        font-size: 40px;
+        margin-left: 400px;
+    }
+
+</style>
+
+
+
+<div class="title1">
+     <h3>Сабақтар қалай өтеді</h3>
+</div>
+
+<div class="body">
+    <div class="cont">
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="assets/img/live-streaming.png" style="width: 150px;">
+                <h2>Тікелей эфир</h2>
+            </div>
+            <div class="content">
                 
-                    <button class="btn2">
-                        <img src="assets/img/product-5.png" style="padding-top: 10px; width: 180px;">
-                        <div style="padding: 5px; font-style: inherit; font-size: 15px; font-weight: 100;" ><br> Xiaomi Poco X3 NFC Dual SIM 
-                        <br> 120GB 6GB RAM Grey </div>
-                        <br>49 900т
-                    </button>
-               
-            </li>
-        </ul>
-        <ul class="gall">
-            <li>
-                <a href="#">
-                    <button class="btn2">
-                        <img src="assets/img/product-6.jpg" style="padding-top: 10px; width: 180px;">
-                        <div style="padding: 5px; font-style: inherit; font-size: 15px; font-weight: 100;" ><br> Xiaomi Poco X3 NFC Dual SIM 
-                        <br> 120GB 6GB RAM Grey </div>
-                        <br>49 900т
-                    </button>
-                </a>
-            </li>
-        </ul><ul class="gall">
-            <li>
-                <a href="#">
-                    <button class="btn2">
-                        <img src="assets/img/product-7.jpg" style="padding-top: 10px; width: 180px;">
-                        <div style="padding: 5px; font-style: inherit; font-size: 15px; font-weight: 100;" ><br> Xiaomi Poco X3 NFC Dual SIM 
-                        <br> 120GB 6GB RAM Grey </div>
-                        <br>49 900т
-                    </button>
-                </a>
-            </li>
-        </ul>
-        <ul class="gall">
-        <li>
-            <a href="#">
-                <button class="btn2">
-                    <img src="assets/img/product-8.png" style="padding-top: 10px; width: 180px;">
-                    <div style="padding: 5px; font-style: inherit; font-size: 15px; font-weight: 100;" ><br> Xiaomi Poco X3 NFC Dual SIM 
-                    <br> 120GB 6GB RAM Grey </div>
-                    <br>49 900т
-                </button>
-            </a>
-        </li>
-        </ul>
+                <p>Білікті ұстаздар тікелей эфирде сабақ өткізеді. </p>
+            </div>
+         </div>   
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/video.png" style="width: 150px;">
+                    <h2>Видео сабақтар</h2>
+                </div>
+                <div class="content">
+                    
+                    <p> Тақырыптарды тереңдетіп түсіндіретін видеосабақтар топтамасы беріледі </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/conversation.png" style="width: 150px;">
+                    <h2>Талқылау</h2>
+                </div>
+                <div class="content">
+                   
+                    <p> Оқушылар сабақты топтасып талқылайды </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/error.png" style="width: 150px;">
+                    <h2>Қатемен жұмыс</h2>
+                </div>
+                <div class="content">
+                    <p>Үй жұмысындағы қиындық тудырған тапсырманы түсіндіретін видеосабақтар болады</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/homework.png" style="width: 150px;">
+                    <h2>Үй тапсырмасы</h2>
+                </div>
+                <div class="content">
+                    
+                    <p>Әр оқушының тақырыпты қаншалықты игергенін анықтайтын тапсырмалар беріледі </p>
+                </div>
+            </div>
+
+
         </div>
-    </div>   
+    </div>
+</div>  
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div style=" 
+margin-top: 200px;">
+
+    <b style="font-size: 50px; 
+    margin-left: 500px;
+    
+    font-family: 'Poppins', sans-serif;
+     ">
+     Курстар
+    </b>
+   
+<div style="margin: 20px;">
+   
+    <br> 
+    <div class="containers">
+        <div class="flex-container">
+            <img src="assets/img/img-2.jpg" class="image-container">
+             <br>
+             <br>
+             <div>
+            <b style="padding-top: 20px; color: black; padding-left: 100px; ">WEB негіздері</b> 
+            <hr>  
+            <ul >
+                <li> Ұзақтығы: 1 ай</li> 
+                <li>HTML, CSS, JavaScript негіздері үйрену </li>
+                <li> HTML, CSS, JavaScript негіздері үйрену </li>
+            </ul>
+
+        <div class="col-md-6 offset-3" style="padding-top: 30px; padding-left: 110px;">
+        <a class="btn btn-course" href="python/" >Қатысамын</a>
+        </div>
+
+    </div>
+    <br>
+    <b style="font-size: 30px; margin-bottom: 30px; color: black; padding-top: 15px; padding-left: 100px;">16 900 T</b>
+    </div>
+    
+    
+    <div class="containers">
+        <div class="flex-container">
+            <img src="assets/img/img-1.jpg" class="image-container">
+            <br>
+            <br>
+            <div>
+            <b style="padding-top: 30px; color: black;  padding-left: 120px;">FRONTEND</b> 
+            <hr>
+            <ul class="licontainer">
+                <li> Ұзақтығы: 1 ай</li> 
+                <li></i>HTML, CSS, JavaScript негіздері үйрену </li>
+                <li>HTML, CSS, JavaScript негіздері үйрену </li>
+            </ul>
+          
+          <div class="col-md-6 offset-3" style="padding-top: 30px; padding-left: 110px;">
+              <a class="btn btn-course" href="python/" >Қатысамын</a>
+          </div>
+        </div>
+        <br>
+        <b style="font-size: 30px; margin-bottom: 30px; color: black; padding-top: 15px; padding-left: 100px;">19 900 T</b></div>
+    </div>
+
+
+    <div class="containers">
+        <div class="flex-container">
+            <img src="assets/img/img-3.jpg" class="image-container">
+            <br>
+            <br>
+            <div>
+            <b style="padding-top: 30px; color: black;  padding-left: 120px;">BACKEND</b>
+            <hr> 
+            <ul >
+                <li>Ұзақтығы: 1 ай</li> 
+                <li>Мәліметтер базасына кіріспе </li>
+                <li>Django Framework-ке кіріспе </li></ul>
+            <br>
+            <br>
+          <div class="col-md-6 offset-3" style="padding-top: 30px; padding-left: 110px;">
+              <a class="btn btn-course" href="python/" >Қатысамын</a> <br> <br>
+              <b style="font-size: 30px; margin-bottom: 30px; color: black; padding-top: 15px; ">19 900 T</b>
+          </div>
+            </div>
+            <br>
+            </div>
+        </div>      
+            
+
+        <div class="containers">
+            <div class="flex-container">
+                <img src="assets/img/img-4.jpg" class="image-container">
+                <br> 
+                <br>
+                <div>
+                <b style="padding-top: 30px; color: black;  padding-left: 120px;">FULL STACK</b> <hr>
+                <ul >
+                    <li> Ұзақтығы: 3 ай</li> 
+                    <li>Қолайлы бағада барлығын үйрену</li>
+                    <li>Күнделікті теория мен практика </li></ul>
+              <br>
+              <br>
+              <div class="col-md-6 offset-3" style="padding-top: 30px; padding-left: 110px;">
+                  <a class="btn btn-course" href="python/" >Қатысамын</a>
+              </div>
+                </div>
+                <br>
+                <b style="font-size: 30px; margin-bottom: 30px; color: black; padding-top: 15px; padding-left: 100px;">39 900 T</b>
+            </div>
+        </div>
+    </div> 
+</div>        
+<style>
+                .flex-container{
+                    width: 300px;
+                    height: 550px;
+                    margin: 5px;
+                    border: none;
+                    border-radius: 20px;
+                    box-shadow: 0px 0px 10px rgb(154,216,231);
+                    
+                }
+
+                .containers{
+                    display: flex; 
+                    flex-wrap: wrap; 
+                    margin-left: 10px;
+                    justify-content: center;
+                
+                }
+                .image-container{
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 20px 20px 0 0;
+                }
+                .licontainer{
+                  
+                }
+                .btn-course {
+                    font-size: 15px;
+                    font-weight: 600;
+                    letter-spacing: 0px;
+                    color: #1d648d;
+                    background: #dee3e7;
+                    -webkit-box-flex: 1;
+                    -webkit-flex: 1 1 auto;
+                    -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+                    padding: 8px 10px;
+                    border: none;
+                    text-align: center;
+                    text-transform: capitalize;
+                    position: relative;
+                    overflow: hidden;
+                    -webkit-transition: .3s;
+                    transition: .3s;
+                    }
+
+                    .btn-course:after {
+                        position: absolute;
+                        -webkit-transition: .3s;
+                        transition: .3s;
+                        content: '';
+                        width: 0;
+                        left: 50%;
+                        bottom: 0;
+                        height: 3px;
+                        background:  #1d648d;
+                    }
+
+                    .btn-course:hover:after {
+                        width: 100%;
+                        left: 0;
+                    }
+
+                    .btn-course:hover {
+                        color: #fff;
+                        background: #000;
+                    }
+ </style> -->
 </section>

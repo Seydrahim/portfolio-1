@@ -1,65 +1,223 @@
-<section style="display: flex;  margin-left: 100px;
-margin-right: 100px;">
+<section style="
+                 background: linear-gradient(to bottom, rgb(154,216,231) 50%, white 50%);
+                 padding: 200px 50px 400px 50px; ">
 
-    <style>
-        .categories{ 
-            padding: 50px;
-            text-align: center;   
-            justify-content: space-between;
-            
-           
-        }
-        .bnt{
-            background-color: rgb(254, 254, 255);
-            border: none;
-            text-align: center;
-            font-size: 35px;
-            color: rgb(57, 182, 190);
 
-        }
-        .a{
-            color: black;
-            text-decoration: none;
-            font-size: 13px;
-        }
-        .abc{
-            font-size: 13px;
-            padding: 5px;
-            font-weight: 300;
-            font-variant: normal;
-            
-        }
-    </style>
- 
-    <div class="categories">
-        <div>
-            <button class="bnt"><i class="fas fa-laptop"> <a class="a" href="#"><br><div class="abc"> Ноутбуктар</div></a></i></button>
-        </div>
-    </div>
-    <div class="categories">
-        <div>
-            <button class="bnt" ><i class="fas fa-tv"><a class="a" href="#"><br><div  class="abc"> Теледидарлар</div> </a></i></button>
-        </div>   
-    </div>
-    <div class="categories">
-        <div>
-            <button class="bnt"><i class="fas fa-mobile-alt"> <a class="a" href="#"><br><div class="abc"> Ұялы телефондар</div> </a></i></button>
-        </div>
-    </div>
-    <div class="categories">
-        <div >
-            <button class="bnt"><i class="fas fa-camera"> <a class="a" href="#"><br><div class="abc"> Гаджеттер</div> </a></i></button>
-        </div>
-    </div>
-    <div class="categories">
-        <div>
-            <button class="bnt"><i class="fas fa-headphones-alt"> <a class="a" href="#"><br> <div  class="abc">Фото және бейне техника</div></a></i></button>
-        </div>
-    </div>
-    <div class="categories">
-        <div>
-            <button class="bnt"><i class="fas fa-gamepad"><a class="a" href="#"><br><div   class="abc"> Ойын техникасы</div> </a></i></button>
-        </div> 
-    </div>
+<style>
+
+    .courses{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+
+    .cards{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .course{
+        margin: 50px;
+    }
+
+   
+
+    .cards .course{ 
+        position: relative;
+        max-width: 250px;
+        height: 165px;
+        background: #fff;
+        border-radius: 20px;
+        margin: 30px 20px;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        /* box-shadow: 0 3px 202px rgb(183, 233, 247); */
+        transition: 0.3s ease-in-out;
+    }
+
+    .cards .course:hover{
+        height: 300px;
+    }
+
+    .cards .course .image{
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        top: -60px;
+        left: 20px;
+        bottom: -40px;
+        margin-left: 10px;
+        /* z-index: 1; */
+        /* box-shadow: 0 5px 20px rgb(154,216,231); */
+    }
+
+    /* .cards .course .text{ 
+        margin-top: 20px;
+        margin-left: 10px;
+    }*/
+
+    .takryp {
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+
+    .toptext{
+        font-size: 40px;
+        margin-left: 410px;
+        margin-right: 400px;
+        margin-bottom: 100px;
+       
+        text-align: center;
+        
+    }
+
+    .lii{
+        margin: 10px 0 10px 0;
+    }
+
+    .ulli{
+        font-family: 'cursive';
+        font-size: 20px;
+    }
+
+    .licontainer{ 
+        margin-top: 43px;
+        
+    }
+
+    .btn-course {
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 5px;
+        letter-spacing: 0px;
+        color: #1d648d;
+        background: #dee3e7;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 8px 10px;
+        border: none;
+        text-align: center;
+        text-transform: capitalize;
+        position: relative;
+        overflow: hidden;
+        -webkit-transition: .3s;
+        transition: .3s;
+    }
+
+    .btn-course:after {
+        position: absolute;
+        -webkit-transition: .3s;
+        transition: .3s;
+        content: '';
+        width: 0;
+        left: 50%;
+        bottom: 0;
+        height: 3px;
+        background:  #1d648d;
+    }
+
+    .btn-course:hover:after {
+        width: 100%;
+        left: 0;
+    }
+
+    .btn-course:hover {
+        color: #fff;
+        background: #000;
+    }
+
+
     
+</style>
+
+<div class="toptext"><h3> Курстар</h3></div>
+
+<div class="courses">
+    <div class="cards">
+
+    <div class="course">
+        <div class="image">
+            <img src="assets/img/ux.png" style="width: 200px; ">
+        </div>
+        <div class="takryp 1" style="margin-left: 11px;">
+            <h2>WEB негіздері</h2>
+        </div>
+        <div class="text"> 
+            <ul class="ulli">
+                <li class="lii"> Ұзақтығы: 1 ай</li> 
+                <li class="lii">HTML, CSS, JavaScript негіздері үйрену </li>
+                <li class="lii"> HTML, CSS, JavaScript негіздері үйрену </li>
+            </ul>
+        </div>
+        <div class="col-md-6 offset-3" style="padding-top: 30px; padding-left: 30px; ">
+            <a class="btn btn-course" href="python/" >Қатысамын</a>
+        </div>
+    </div>
+  
+    <div class="course">
+        <div class="image">
+            <img src="assets/img/computer.png" style="width: 200px;">
+        </div>
+        <div class="takryp 2"><h2>Front end</h2></div>
+        <div class="text" >
+            <ul class="ulli licontainer">
+                <li class="lii"> Ұзақтығы: 1 ай</li> 
+                <li class="lii"></i>HTML, CSS, JavaScript негіздері үйрену </li>
+                <li class="lii">HTML, CSS, JavaScript негіздері үйрену </li>
+            </ul>
+        </div>
+        
+            <div class="col-md-6 offset-3" style="padding-top: 37px; padding-left: 30px;">
+                <a class="btn btn-course" href="python/" >Қатысамын</a>
+            </div>
+      
+    </div>
+
+    <div class="course">
+        <div class="image">
+            <img src="assets/img/backend.png" style="width: 190px;">
+        </div>
+        <div class="takryp 3"><h2>Back End</h2></div>
+        <div class="text">
+            <ul class="ulli licontainer">
+                <li class="lii">Ұзақтығы: 1 ай</li> 
+                <li class="lii">Мәліметтер базасына кіріспе </li>
+                <li class="lii">Django Framework-ке кіріспе </li>
+            </ul>
+        </div>
+            <div class="col-md-6 offset-3" style="padding-top: 62px; padding-left: 30px;">
+                <a class="btn btn-course" href="python/" >Қатысамын</a>
+            </div>
+       
+    </div>
+
+    <div class="course">
+        <div class="image">
+            <img src="assets/img/world-wide-web.png" style="width: 200px; top: -40px;">
+        </div>
+        <div class="takryp 4"><h2>Full Stuck</h2></div>
+        <div class="text">
+            <ul class="ulli licontainer">
+                <li class="lii"> Ұзақтығы: 3 ай</li> 
+                <li class="lii">Қолайлы бағада барлығын үйрену</li>
+                <li class="lii">Күнделікті теория мен практика </li>
+            </ul>
+        </div>
+        <div class="col-md-6 offset-3" style="padding-top: 65px; padding-left: 30px;">
+            <a class="btn btn-course" href="python/" >Қатысамын</a>
+        </div>
+    </div>
+</div>
+</div>
 </section>
